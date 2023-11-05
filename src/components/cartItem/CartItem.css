@@ -1,0 +1,33 @@
+.cart-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  background-color: #eee;
+  margin: 0.6rem 0;
+}
+
+.cart-item__image {
+  max-width: 50px;
+  max-height: 50px;
+  flex: 1;
+  margin: 5px;
+}
+
+.cart-item__title {
+  flex: 5;
+  padding: 10px;
+  font-size: 1.3rem;
+}
+
+.cart-item__quantity {
+  flex: 1;
+  font-size: 1.3rem;
+}
+
+.cart-item__price {
+  flex: 1;
+  font-size: 1.3rem;
+}
